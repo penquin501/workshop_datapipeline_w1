@@ -173,3 +173,24 @@
 [2024-01-27T02:28:11.785+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:28:11.785+0000] {dag.py:3033} INFO - Sync 1 DAGs
 [2024-01-27T02:28:11.794+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:28:11.794+0000] {dag.py:3820} INFO - Setting next_dagrun for dog_api_pipeline to None, run_after=None
 [2024-01-27T02:28:11.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.058 seconds
+[2024-01-27T02:28:41.926+0000] {processor.py:161} INFO - Started process (PID=800) to work on /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:28:41.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog_api_pipeline.py for tasks to queue
+[2024-01-27T02:28:41.928+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:28:41.927+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:28:41.937+0000] {processor.py:840} INFO - DAG(s) 'dog_api_pipeline' retrieved from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:28:41.968+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:28:41.968+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-27T02:28:41.981+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:28:41.981+0000] {dag.py:3820} INFO - Setting next_dagrun for dog_api_pipeline to None, run_after=None
+[2024-01-27T02:28:42.013+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.091 seconds
+[2024-01-27T02:29:12.063+0000] {processor.py:161} INFO - Started process (PID=822) to work on /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:12.064+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog_api_pipeline.py for tasks to queue
+[2024-01-27T02:29:12.064+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:12.064+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:12.071+0000] {processor.py:840} INFO - DAG(s) 'dog_api_pipeline' retrieved from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:12.091+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:12.091+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-27T02:29:12.100+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:12.100+0000] {dag.py:3820} INFO - Setting next_dagrun for dog_api_pipeline to None, run_after=None
+[2024-01-27T02:29:12.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.064 seconds
+[2024-01-27T02:29:42.255+0000] {processor.py:161} INFO - Started process (PID=844) to work on /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:42.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dog_api_pipeline.py for tasks to queue
+[2024-01-27T02:29:42.256+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:42.256+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:42.263+0000] {processor.py:840} INFO - DAG(s) 'dog_api_pipeline' retrieved from /opt/airflow/dags/dog_api_pipeline.py
+[2024-01-27T02:29:42.282+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:42.282+0000] {dag.py:3033} INFO - Sync 1 DAGs
+[2024-01-27T02:29:42.291+0000] {logging_mixin.py:188} INFO - [2024-01-27T02:29:42.291+0000] {dag.py:3820} INFO - Setting next_dagrun for dog_api_pipeline to None, run_after=None
+[2024-01-27T02:29:42.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dog_api_pipeline.py took 0.057 seconds
