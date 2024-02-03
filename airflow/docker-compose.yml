@@ -168,6 +168,15 @@ services:
       - bash
       - -c
       - airflow
+  
+  mydb:
+    image: postgres:16.1
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    volumes:
+      - postgres-data-volume:/var/lib/postgresql/data
 
   # redis:
   #   image: redis:latest
@@ -206,3 +215,4 @@ volumes:
   airflow-metastore-data-volume:
   minio-data-volume:
   postgres-data-volume:
+  
